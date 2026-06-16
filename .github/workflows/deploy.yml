@@ -36,7 +36,7 @@ jobs:
 
       - name: Zip Lambda Package
         run: |
-          zip deployment.zip lambda_functions.py
+          zip deployment.zip lambda_function.py
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
