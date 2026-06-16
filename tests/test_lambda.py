@@ -1,4 +1,4 @@
-from lambda_functions import lambda_handler
+from lambda_function import lambda_handler
 
 def test_lambda():
     result = lambda_handler({}, {})
