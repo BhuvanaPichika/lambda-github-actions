@@ -21,6 +21,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Show files
+        run: |
+          pwd
+          find . -type f
+
       - name: Install Dependencies
         run: |
           pip install pytest
